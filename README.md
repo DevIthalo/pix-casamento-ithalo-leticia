@@ -37,4 +37,4 @@ Este projeto não requer instalação de dependências ou servidores.
 
 ---
 
-Desenvolvido com carinho para celebrar nosso grande dia! ❤️
+Desenvolvido com carinho para celebrar nosso grande dia!! ❤️
