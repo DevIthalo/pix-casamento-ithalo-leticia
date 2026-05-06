@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente de Casamento - Pix</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Serif:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Background Image with Overlay -->
+    <div class="fixed-bg">
+        <img src="public/BG.jpeg" alt="Romantic couple background" class="bg-image">
+        <div class="bg-overlay"></div>
+    </div>
+
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <button class="nav-logo">
+                <span class="material-symbols-outlined heart-icon">favorite</span>
+                <span class="font-headline-sm">Nosso Casamento</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container animate-stagger">
+            <!-- Logo area -->
+            <div class="logo-wrapper reveal">
+                <img src="public/logo.png" alt="Logo ITHALO & LETICIA" class="couple-logo">
+            </div>
+
+            <!-- Suggestion Text -->
+            <h2 class="font-headline-md reveal">Sugestão de presente</h2>
+
+            <!-- Payment Options Container -->
+            <div class="payment-container">
+                <!-- Option 1: Suggested Amount -->
+                <div class="card reveal">
+                    <span class="font-label-caps uppercase">Valor Sugerido</span>
+                    <div class="font-headline-md price">R$ 100,00</div>
+                    <a href="https://nubank.com.br/cobrar/x8eul/69fb349b-2574-45b0-83de-8fb922eeaf7b" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        PRESENTEAR R$ 100
+                        <span class="material-symbols-outlined">payments</span>
+                    </a>
+                </div>
+
+                <!-- Divider -->
+                <div class="divider reveal">
+                    <div class="line"></div>
+                    <span class="font-label-caps">OU</span>
+                    <div class="line"></div>
+                </div>
+
+                <!-- Option 2: Custom Amount -->
+                <div class="card-outline reveal">
+                    <a href="https://nubank.com.br/cobrar/x8eul/69fb5ba3-1bf6-4b53-8710-f4d237dece42" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                        PRESENTEAR OUTRO VALOR
+                        <span class="material-symbols-outlined">payments</span>
+                    </a>
+                </div>
+
+                <!-- Pix Key Info -->
+                <div class="pix-info reveal">
+                    <p class="font-label-caps uppercase">Chave Pix (Chave Aleatória)</p>
+                    <div class="pix-key-wrapper">
+                        <span id="pix-key" class="pix-text">00261556-e97a-4cdc-9ea3-fa2ebb3518d6</span>
+                        <button id="copy-btn" aria-label="Copiar chave" class="copy-btn">
+                            <span class="material-symbols-outlined">content_copy</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Signature -->
+            <div class="footer reveal">
+                <p class="font-body-lg">
+                    Agradecemos de coração por fazer parte deste momento tão especial em nossas vidas. Sua presença e carinho são o nosso maior presente.
+                </p>
+                <p class="font-headline-sm italic">
+                    Com carinho,<br>
+                    Ithalo e Letícia
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+# Configurações de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos do Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporários
+.next/
+node_modules/
+dist/
+build/
